@@ -1,0 +1,10 @@
+.gradient {
+  background: linear-gradient(120deg,#929293,#052c48);
+  color: #fff;
+}
+
+a:hover {
+  color: #111518;
+  text-decoration: underline;
+}
+
