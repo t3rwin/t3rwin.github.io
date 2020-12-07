@@ -4,3 +4,4 @@ SolarTrackerPCB.png filter=lfs diff=lfs merge=lfs -text
 STpcbTop.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.gif filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
