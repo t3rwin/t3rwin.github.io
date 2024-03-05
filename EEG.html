@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Tim Erwin | RISC V</title>
+    <title>Tim Erwin | Flyback Converter</title>
     <meta name="" content="">
     <meta name="robots" content="noindex">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -38,7 +38,7 @@
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#" style="color: rgb(255,255,255);font-size: 22px;">Projects</a>
                         <div class="dropdown-menu"><a class="dropdown-item" href="index.html">All Projects</a><a class="dropdown-item" href="CE.html">CE Amplifier</a><a class="dropdown-item" href="vegebox.html">Vegebox</a><a class="dropdown-item" href="flyback.html">Flyback Converter</a><a class="dropdown-item" href="electrochlorinator.html">Electro Chlorinator</a><a class="dropdown-item" href="solartracker.html">Solar Tracker</a><a class="dropdown-item" href="lm386.html">Audio Amplifier</a></div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: rgb(255,255,255);font-size: 22px;">Contact</a></li>
+                    <li class="nav-item"></li>
                 </ul>
             </div>
         </div>
@@ -47,50 +47,48 @@
     <div class="d-flex justify-content-center align-items-center align-content-center align-self-center article-clean" style="padding-bottom: 37px;text-shadow: 0px 0px;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2 d-flex flex-column flex-grow-1 flex-shrink-1 justify-content-center align-content-center justify-content-lg-center align-items-lg-center" style="padding-right: 47px;width: 782px;">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2 d-flex flex-column flex-grow-1 flex-shrink-1 justify-content-center align-content-center justify-content-lg-center align-items-lg-center" style="padding-right: 47px;">
                     <div class="intro">
-                        <h1 class="text-center" style="font-family: Anaheim, sans-serif;font-size: 39px;">Risc-V Microcontroller</h1>
-                        <p class="text-center" style="margin-top: 12px;"> <a href="#" style="font-family: Anaheim, sans-serif;font-size: 16px;">Tim Erwin</a><span class="date" style="font-size: 15px;">Sept 2021 - Nov 2021</span></p>
+                        <h1 class="text-center" style="font-family: Anaheim, sans-serif;font-size: 39px;">2-Channel EEG Neurofeedback</h1>
+                        <p class="text-center" style="margin-top: 12px;"> <a href="#" style="font-family: Anaheim, sans-serif;font-size: 16px;">Tim Erwin</a><span class="date" style="font-size: 15px;">Sept 2023 - June 2024</span></p>
                     </div>
-                    <div class="row d-flex justify-content-center align-items-center align-self-center" style="margin-top: -23px;width: 687px;margin-bottom: 24px;margin-left: 0;margin-right: 0;">
-                        <div class="col d-flex justify-content-center align-items-center align-content-center" style="padding-right: 0px;width: 521 px;padding-left: 0px;"><div><iframe src="https://drive.google.com/file/d/1uJHS_NWE27fz3qnm_tdRiPSb8vDZWSQd/preview" width="640" height="300" allow="autoplay"></iframe></div></div>
+                    <div class="row d-flex justify-content-center align-items-center align-self-center" style="margin-top: -23px;width: 539px;margin-bottom: 24px;margin-left: 0;margin-right: 0;">
+                        <div class="col d-flex justify-content-center align-items-center align-content-center" style="padding-right: 0px;width: 311px;padding-left: 0px;"><img class="d-flex flex-row flex-shrink-1 align-items-center align-content-center align-self-center m-auto justify-content-md-center justify-content-xl-end align-items-xl-start" src="assets/img/Flyback%20Converter/FlybackPCB.jpg" style="min-width: 50px;max-width: 100%;min-height: 50px;max-height: 100%;width: 780px;"></div>
                     </div>
+                    <h2 class="align-self-start" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;color: #111518;">Overview</h2>
                     <div class="flex-column justify-content-center align-content-center text">
-                        <h2 class="align-self-start" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;color: #111518;margin-bottom: 9px;">Contents</h2>
-                        <ul class="text-left" style="margin-bottom: 0px;">
-                            <li><a href="#jumpOverview"><strong>Overview</strong></a></li>
-                            <li><a href="#jumpSoftware"><strong>Software and Services</strong></a></li>
-                            <li><a href="#jumpSystem"><strong>System Overview</strong></a></li>
-                            <li><a href="#jumpModule"><strong>Module Design</strong></a></li>
-                            <li><a href="#jumpVerification"><strong>Verification</strong></a></li>
-                            <li><a href="#jumpAssembly"><strong>Assembly Programs</strong></a></li>
-                            <li><a href="#jumpProjects"><strong>Projects</strong></a></li>
-                        </ul>
-                        <ul class="text-left" style="padding-left: 70px;">
-                            <li>Frequency Counter</li>
-                            <li>Snake Game</li>
-                        </ul>
-                        <h2 class="align-self-start" id="jumpOverview" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;color: #111518;margin-bottom: 11px;">Overview</h2>
-                        <p style="font-family: Anaheim, sans-serif;">overview</p>
-                        <p style="font-family: Anaheim, sans-serif;margin-bottom: -3px;">overview</p>
+                        <p style="font-family: Anaheim, sans-serif;">This flyback converter is a part of a device that will be used to study the effectiveness of pasteurizing low-moisture foods, such as flour, by radio-frequency heating. Major system components of the pasteurization device include a flyback DC-DC converter, oscillator, and a food chamber. I designed the flyback converter, and two other students worked on the oscillator circuit and food chamber.&nbsp;</p>
+                        <p style="font-family: Anaheim, sans-serif;margin-bottom: -3px;">The flyback converter&nbsp; is controlled by the LT3751 High Voltage Regulator Controller IC and monitored by an external microcontroller. The circuit supplies 200 volts to a RF generation circuit.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p>
                         <p style="font-family: Anaheim, sans-serif;"></p>
-                        <h2 id="jumpSoftware" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 7px;margin-bottom: 4px;">Software and Services:</h2>
+                        <h2 style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 7px;margin-bottom: 4px;">Software and Services:</h2>
                         <ul>
-                            <li><strong>FPGA</strong>&nbsp;<strong>CAD</strong>: Xilinx Vivado Design Suite<br></li>
-                            <li><strong>Hardware Description Language:</strong>&nbsp;System Verilog</li>
-                            <li><strong>Microcontroller Programming:</strong>&nbsp;RISC-V Assembly</li>
+                            <li><strong>Schematic and PCB</strong>&nbsp;<strong>Design</strong>: Altium Designer</li>
+                            <li><strong>Circuit Simulation</strong><span style="text-decoration: underline;">:</span>&nbsp;LTspice</li>
+                            <li><strong>PCB Manufacturing</strong><span style="text-decoration: underline;">:</span>&nbsp;JLCPCB</li>
                         </ul>
-                        <h2 id="jumpSystem" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 7px;margin-bottom: 4px;">System Overview</h2>
+                        <h2 style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 7px;margin-bottom: 4px;">System Overview</h2>
                         <div class="row d-flex justify-content-center align-items-center align-self-center" style="margin-top: 28px;">
-                            <div class="col d-flex justify-content-center align-items-center align-content-center" style="padding-right: 0px;width: 311px;padding-left: 0px;"><img class="d-flex flex-row flex-shrink-1 align-items-center align-content-center align-self-center m-auto justify-content-md-center justify-content-xl-end align-items-xl-start" src="assets/img/OTTER/OTTER_architechture.png" style="min-width: 50px;max-width: 100%;min-height: 50px;max-height: 100%;width: 666px;"></div>
+                            <div class="col d-flex justify-content-center align-items-center align-content-center" style="padding-right: 0px;width: 311px;padding-left: 0px;"><img class="d-flex flex-row flex-shrink-1 align-items-center align-content-center align-self-center m-auto justify-content-md-center justify-content-xl-end align-items-xl-start" src="assets/img/Flyback%20Converter/systemoverview.png" style="min-width: 50px;max-width: 100%;min-height: 50px;max-height: 100%;width: 714px;"></div>
                         </div>
                         <p style="font-family: Anaheim, sans-serif;"></p>
-                        <h2 id="jumpModule" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 34px;margin-bottom: 17px;">Module Design</h2>
-                        <p style="font-family: Anaheim, sans-serif;">module design&nbsp;module design&nbsp;<br>module design&nbsp;module design&nbsp; module design&nbsp;module design&nbsp;module design&nbsp;module design module design module<br>module design&nbsp;module design&nbsp; module design&nbsp;module design&nbsp;module design&nbsp;module design<br><br></p>
-                        <h2 id="jumpVerification" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 34px;margin-bottom: 17px;">Verification</h2>
-                        <p style="font-family: Anaheim, sans-serif;margin-top: 24px;margin-bottom: 16px;">verification</p>
+                        <h2 style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 34px;margin-bottom: 17px;">Circuit Design</h2>
+                        <p style="font-family: Anaheim, sans-serif;">The flyback converter is regulated by the LT3751 High Voltage Regulator Controller IC and monitored by an external microcontroller. A primary side RCD snubber was implemented to reduce the magnitude of the voltage spike at the switching MOSFET. Additionally, I designed a discharge circuit to discharge the output capacitors when the CHARGE&nbsp;signal is low.</p>
+                        <div class="row d-flex justify-content-center align-items-center align-self-center">
+                            <div class="col d-flex justify-content-center align-items-center align-content-center" style="padding-right: 0px;width: 342px;padding-left: 0px;height: 404px;">
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://drive.google.com/file/d/1EqzN2hMi_oEGCub0GZY5n1H7VFlhH2-q/preview" allowfullscreen=""></iframe></div>
+                            </div>
+                        </div>
+                        <h2 style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 34px;margin-bottom: 17px;">PCB Design</h2>
+                        <p style="font-family: Anaheim, sans-serif;margin-top: 24px;margin-bottom: 16px;">This is a two-layer board with a ground plane on the bottom layer.<br>Because this is a high voltage switching converter, the PCB layout is very important. Some things that I considered while laying out the board:<br></p>
                         <ul>
-                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;margin-top: -12px;">123<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;margin-top: -12px;">Creepage and clearance for 200V<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;">Minimizing area of switching loops<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;">Keeping input and output current loops flowing in the same direction<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;">Short traces<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;">No ground plane past transformer<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;">No ground plane under Rvout and Rdcm nodes to reduce capacitance<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;">Keep feedback trace far from transformer<br></li>
+                            <li style="font-family: Anaheim, sans-serif;font-size: 16px;">Thermal management.&nbsp;<br></li>
                         </ul>
                     </div>
                     <div class="carousel slide carousel-fade bg-dark border-dark shadow d-table-cell flex-grow-1 flex-shrink-1 justify-content-center align-items-center align-content-center align-self-center justify-content-xl-center align-items-xl-center" data-ride="carousel" id="carousel-1" style="width: 714px;max-width: 100%;min-width: 0px;height: 449px;margin-bottom: 42px;">
@@ -118,8 +116,9 @@
                         </ol>
                     </div>
                     <div class="flex-column justify-content-center align-content-center text">
-                        <h2 class="text-left" id="jumpAssembly" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 7px;margin-bottom: 17px;">Assembly Programs</h2>
-                        <p style="font-family: Anaheim, sans-serif;margin-top: 24px;">assembly&nbsp;&nbsp;<br>module design&nbsp;module design&nbsp;<br>module design&nbsp;module design&nbsp; module design&nbsp;module design&nbsp;module design&nbsp;module design module design module<br>module design&nbsp;module design&nbsp; module design&nbsp;module design&nbsp;module design&nbsp;module design<br><br></p>
+                        <h2 style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 7px;margin-bottom: 17px;">Assembly and Testing</h2>
+                        <p style="font-family: Anaheim, sans-serif;margin-bottom: -17px;"><strong>PCB Assembly</strong></p>
+                        <p style="font-family: Anaheim, sans-serif;margin-top: 24px;">I had a few surface mount components soldered by the PCB manufacturer, JLCPCB. I soldered the remaining components.&nbsp;</p>
                         <div class="row d-flex justify-content-center align-items-center align-self-center" style="margin-top: 28px;">
                             <div class="col d-flex justify-content-center align-items-center align-content-center" style="padding-right: 0px;width: 311px;padding-left: 0px;">
                                 <div class="carousel slide carousel-fade bg-dark border-dark shadow d-table-cell flex-grow-1 flex-shrink-1 justify-content-center align-items-center align-content-center align-self-center justify-content-xl-center align-items-xl-center" data-ride="carousel" id="carousel-3" style="width: 714px;max-width: 100%;min-width: 0px;height: 404px;margin-bottom: 99px;">
@@ -149,16 +148,13 @@
                                 </div>
                             </div>
                         </div>
-                        <p style="font-family: Anaheim, sans-serif;margin-bottom: 15px;">text</p>
-                        <p style="font-family: Anaheim, sans-serif;margin-bottom: 21px;">text</p>
+                        <p style="font-family: Anaheim, sans-serif;margin-bottom: 15px;">I made an external circuit to safely enable and disable the flyback converter. The green light means that the CHARGE signal on the flyback PCB is high. If only the green light is on, the flyback converter is operating. If the red light is on, the flyback converter controller IC is not switching because Vcc fell below or went above the threshold voltages. An Arduino monitors the FAULT signal and provides the 5 volts to the converter's enable pin.&nbsp;</p>
+                        <p style="font-family: Anaheim, sans-serif;margin-bottom: 21px;">As seen on the multimeter below, the flyback converter PCB outputs 200V when there is no load attached to the output. When there is a load, the output voltage slowly drops. Increasing the output capacitance helped to maintain a higher voltage for longer, but it still falls back down. I did not have access to more high voltage electrolytic capacitors so I was not able to test the flyback converter with more output capacitance. When I first tested the flyback converter with a load attached to the output, the output diode broke, probably because it couldn’t handle the current (even though I used the diode that the LT3751 datasheet recommended). To fix this, I used a large diode that I had at home. I used three in parallel to ensure that they could handle the current. The output diodes gets very hot when there is a load attached to the output. Because of this the flyback converter cannot be operated for long periods of time with a load.&nbsp;&nbsp;</p>
                         <div class="row">
                             <div class="col d-flex justify-content-center align-items-center align-content-center"><img class="align-self-center" src="assets/img/Solar%20Tracker/IMG_20210526_212857.jpg" style="height: 1300;width: 323.25px;margin-bottom: 17px;"></div>
                         </div>
-                        <h2 id="jumpProjects" style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 32px;margin-bottom: 6px;">Projects</h2>
-                        <p style="font-family: Anaheim, sans-serif;"><strong>Frequency Counter</strong></p>
-                        <p style="font-family: Anaheim, sans-serif;">frequency counter</p>
-                        <p style="font-family: Anaheim, sans-serif;"><strong>Snake Game</strong></p>
-                        <p style="font-family: Anaheim, sans-serif;">snake</p>
+                        <h2 style="font-family: Anaheim, sans-serif;font-size: 25px;line-height: 29px;font-weight: 700;margin-top: 32px;margin-bottom: 6px;">Next Steps:</h2>
+                        <p style="font-family: Anaheim, sans-serif;">Next steps include investigating the why the circuit cannot drive a load and why the output diode overheats. Ideas to begin troubleshooting the circuit including adding more output capacitance and replacing the rectifier diode with a suitable ultra-fast recovery diode. Implementing an RC snubber on the output diode may also be helpful.&nbsp;</p>
                         <p style="font-family: Anaheim, sans-serif;"></p>
                     </div>
                 </div>
@@ -167,9 +163,9 @@
     </div>
     <div class="col justify-content-center align-items-center align-content-center align-self-center bottom" style="background: linear-gradient(120deg, #929293, #052c48);height: 67px;position: relative;bottom: 0;margin-top: 20px;margin-left: 0px;min-width: 50px;">
         <ul class="list-inline d-flex justify-content-center align-items-center align-self-center" style="padding: 0px;text-align: center;padding-top: 18px;font-size: 20px;">
-            <li class="list-inline-item"><a class="text-light" style="font-family: Anaheim, sans-serif;color: rgb(255,255,255);">© Timothy Erwin 2023</a></li>
+            <li class="list-inline-item"><a class="text-light" style="font-family: Anaheim, sans-serif;color: rgb(255,255,255);">© Timothy Erwin 2024</a></li>
             <li class="list-inline-item"><a class="text-light" href="index.html" style="font-family: Anaheim, sans-serif;margin-left: 19px;">Home</a></li>
-            <li class="list-inline-item"><a class="text-light" href="contact.html" style="font-family: Anaheim, sans-serif;padding-left: 18px;">Contact</a></li>
+            <li class="list-inline-item"></li>
         </ul>
     </div><script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101294001);</script>
 <script async src="//static.getclicky.com/js"></script>
