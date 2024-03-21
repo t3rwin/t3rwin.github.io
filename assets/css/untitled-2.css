@@ -6,7 +6,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: #d01515;
+  background: linear-gradient(90deg, #929293, #052c48);
   display: grid;
   grid-template-rows: 1fr auto;
 }
